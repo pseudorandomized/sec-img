@@ -23,7 +23,7 @@ You can either:
 - Type `sec-img -f <PATH-TO-IMAGE>` (e.g. sec-img -f ~/disk1.img) to create, open, format using ext4 filesystem, and finally lock the encrypted image.
 
 ### Open an encrypted disk image file
-- Type `sec-img -o <PATH-TO-IMAGE>` (e.g. sec-img -o ~/disk1.img) to open an encrypted file image. System should recognize it as an external storage device (in Ubuntu,Mint distros).
+- Type `sec-img -o <PATH-TO-IMAGE>` (e.g. sec-img -o ~/disk1.img) to open an encrypted file image. System should recognize it as an external storage device (for example in Ubuntu,and other Debian-based distros).
 
 ### Lock an encrypted disk image file
 - Type `sec-img -c <PATH-TO-IMAGE>` (e.g. sec-img -c ~/disk1.img) to lock an encrypted file image. Be sure you have unmounted (i.e. securely removed it) first.
